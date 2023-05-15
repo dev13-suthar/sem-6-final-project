@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="registration.css">
+</head>
+
+<body>
+    <form action="registration.php" method="post" autocomplete="off">
+        <h2>Create a new account</h2>
+        <label for="firstname">First name:</label>
+        <input type="text" id="firstname" name="firstname" placeholder="first name" required>
+        <label for="lastname">Last name:</label>
+        <input type="text" id="lastname" name="lastname" placeholder="Last name">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter a email address" pattern=".+@gmail.com"
+            maxlength="30" required>
+        <label for="password">Mobile:</label>
+        <input type="text" id="mobile" name="mobileno" placeholder="enter a mobile number" pattern="[0-9]+"  
+        minlength="10"    maxlength=10 title="only using number" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="enter password" minlength="8" maxlength="16"
+            placeholder="Enter your password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
+        <label for="password"> Confirm Password:</label>
+        <input type="password" id="password" name=" confirmpassword" placeholder="enter confirm password" minlength="8"
+            maxlength="16" placeholder="Enter your password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
+
+
+        <input type="submit" value="submit" name="submit">
+    </form>
+</body>
+
+</html>

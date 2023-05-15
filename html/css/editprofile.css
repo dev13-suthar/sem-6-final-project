@@ -1,0 +1,98 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+body{
+  min-height: 70vh;
+}
+.container
+{
+ 
+  background-color:white;
+  height: 5-0px;
+  width: 400px;
+  justify-content: center;
+   margin:200px 300px 200px 460px;
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+   border-radius: 5px;
+  
+  
+}
+.name
+{
+  text-align: center;
+  font-size: 35px;
+
+}
+.images
+{
+  margin-left: 150px;
+}
+img{
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+span{
+  font-size: 25px;
+}
+.information
+{
+  margin-left: 50px;
+}
+.information td{
+ 
+  
+}
+.information th{
+ 
+  padding: 20px;
+
+}
+
+.edit .back 
+{
+
+  background-color: blue;
+  color:#fff;
+  height: 30px;
+  width: 70px;
+
+}
+.update
+{
+  background-color: blue;
+  color:#fff;
+  height: 30px;
+  width: 70px;
+
+
+}
+.password 
+{
+   color: black;
+   background-color: yellow;
+   height: 30px;
+   width: 150px;
+   
+}
+
+ .back a, .edit a
+{
+  text-decoration: none;
+  color: white;
+
+}
+.password  a{
+  text-decoration: none;
+  color: black;
+}
+
+.back{
+ margin-inline-end: auto;
+}
+
+/*  edit profile page */
+
